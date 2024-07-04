@@ -1,0 +1,87 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::after
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    font-family: sans-serif;
+    font-display: swap;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.12);
+    font-weight: bold;
+}
+
+#calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    height: 215px;
+    border-radius: 10px;
+    background: #e2e2cb;
+    background: linear-gradient(127deg,#46dbd4 0%, #deebea 80%);
+    background: -webkit-linear-gradient(127deg,#80d1b6 0%, #e8f5f4 80%);
+    background: -moz-linear-gradient(127deg,#17bb48 0%, #48d85b 80%);
+    box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.33);
+}
+
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 3px outset #b5b4b4;
+    background: rgba(226, 226, 203, 0.7); /* Fallback para navegadores que não suportam gradients */
+    background: linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+    background: -webkit-linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+    background: -moz-linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+}
+
+.teclas{
+    margin-bottom: 4px;
+    width: 22px;
+    height: 19px;
+    border-radius: 3px;
+    background: rgba(226, 226, 203, 0.7); /* Fallback para navegadores que não suportam gradients */
+    background: linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+    background: -webkit-linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+    background: -moz-linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+}
+
+.teclas2{
+    width: 48.5px;
+    height: 19px;
+    border-radius: 3px;
+    background: rgba(226, 226, 203, 0.7); /* Fallback para navegadores que não suportam gradients */
+    background: linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+    background: -webkit-linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+    background: -moz-linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+}
+
+.teclas1{
+    width: 22px;
+    height: 19px;
+    border-radius: 3px;
+    background: rgba(226, 226, 203, 0.7); /* Fallback para navegadores que não suportam gradients */
+    background: linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+    background: -webkit-linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+    background: -moz-linear-gradient(127deg, rgba(226, 226, 203, 0.7) 0%, rgba(245, 248, 239, 0.7) 80%);
+}
