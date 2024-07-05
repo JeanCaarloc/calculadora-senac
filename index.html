@@ -9,76 +9,74 @@
 </head>
 <body>
     
-
     <div id="calculadora">
         <p>Calculadora</p>
-        <section class="screen">
-            <h1>1</h1>
+        <section id="resultado">
         </section>
         <section class="keyboard">
             <div class="botoes">
-                <button type="button" class="teclas2">
-                    A/C
-                </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas2" onclick="clean()">
                     C
                 </button>
-                <button type="button" class="teclas">
-                    &divide;
+                <button type="button" class="teclas" onclick="back()">
+                    <
                 </button>
-            <div class="Botoes">
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="insert('/')">
+                    /
+                </button>
+            <div class="botoes">
+                <button type="button" class="teclas" onclick="insert('7')">
                     7
                 </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="insert('8')">
                     8
                 </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="insert('9')">
                     9
                 </button>
-                <button type="button" class="teclas">
-                    &times;
+                <button type="button" class="teclas" onclick="insert('*')">
+                    *
                 </button>
             </div>
-            <div class="Botoes">
-                <button type="button" class="teclas">
+            <div class="botoes">
+                <button type="button" class="teclas" onclick="insert('4')">
                     4
                 </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="insert('5')">
                     5
                 </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="insert('6')">
                     6
                 </button>
-                <button type="button" class="teclas">
-                    &minus;
+                <button type="button" class="teclas" onclick="insert('-')">
+                    -
                 </button>
             </div>
-            <div class="Botoes">
-                <button type="button" class="teclas">
+            <div class="botoes">
+                <button type="button" class="teclas" onclick="insert('1')">
                     1
                 </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="insert('2')">
                     2
                 </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="insert('3')">
                     3
                 </button>
-                <button type="button" class="teclas">
-                    &plus;
+                <button type="button" class="teclas" onclick="insert('+')">
+                    +
                 </button>
             </div>
-            <div class="Botoes">
-                <button type="button" class="teclas1">
-                    &percnt;
+            <div class="botoes">
+                <button type="button" class="teclas1" onclick="insert('%')">
+                    %
                 </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="insert('0')">
                     0
                 </button>
-                <button type="button" class="teclas">
-                    &comma;
+                <button type="button" class="teclas" onclick="insert(',')">
+                    ,
                 </button>
-                <button type="button" class="teclas">
+                <button type="button" class="teclas" onclick="calcular()">
                     =
                 </button>
             </div>

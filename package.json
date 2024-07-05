@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": "",
   "devDependencies": {
     "electron": "^31.1.0"
+  },
+  "description": "",
+  "dependencies": {
+    "expr-eval": "^2.0.2"
   }
 }
